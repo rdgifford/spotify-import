@@ -8,5 +8,5 @@
       "\\.config\\.js$"
     ]
   },
-  "throttle": 10000
+  "throttle": 2500
 }

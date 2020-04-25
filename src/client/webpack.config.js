@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/client/index.tsx",
   output: {
       filename: "app.js",
-      path: "/app/public"
+      path: path.resolve(__dirname, "../../public")
   },
 
   // Enable sourcemaps for debugging webpack's output.
